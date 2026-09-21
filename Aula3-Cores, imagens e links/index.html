@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Cores, Imagens e Links</h1>
+    </header>
+    <!-- Conteúdo principal -->
+    <main>
+        <!--Cores em HTML-->
+        <section>
+            <h2>Formatos de Cor no CSS: </h2>
+            <h3 style="color: #FF5733;">Título com cor Hexadecimal</h3>
+            <h3 style="color: rgb(0, 128, 255);">Título com cor RGB</h3>
+            <h3 style="color: rgba(0, 128, 0, 0.6);">Título com cor RGBA</h3>
+        </section>
+        <hr> 
+        <section>
+            <p style="color: blue;">Texto em uma cor específica!</p> 
+            <p style="background-color: rgb(0, 0, 255); color: white;">Fundo do texto em uma cor específica!</p>
+        </section>  
+        <hr>
+        <!--imagem como elemento da página-->
+        <section> 
+            <img src="assets/ramon.jpg" alt="Teste" title="Teste"> 
+        </section>
+        <hr> 
+        <!--Imagem como background -->
+        <section>
+            <div style="border: 1px solid red; width: 500px; height: 500px; color: blue; text-align: center; 
+            background-image:url('assets/ramon.jpg'); 
+            background-size: 200px 200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            ">
+                <h2>Imagem como background</h2> 
+                <p>Esta seção tem uma imagem como fundo.</p>
+            </div>
+        </section>
+        <hr>
+        <!--Vídeos-->
+        <section>
+            <h1>Vídeos em HTML</h1>
+            <video src="assets/senai.mp4" controls autoplay width="560" height="315">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </section>
+        <hr>
+        <!--Vídeos externos Iframe-->
+        <section>
+            <h1>Vídeos externos</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HsTRLC8Z7tI?si=BTyTkh6tlXh0T4Wr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1790003390534!6m8!1m7!1s82_kxlt3yegwPpMAhzimUg!2m2!1d-21.49961462221047!2d-47.00373613663132!3f23.263219450324186!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
