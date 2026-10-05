@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4: Listas, Tabelas e Formulários</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Listas, Tabelas e Formulários</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Glossário</h2>
+            <dl>
+                <dt>HTML:</dt>
+                <dd>Linguagem de marcação utilizada para estruturar o conteúdo da web.</dd>
+
+                <dt>CSS:</dt>
+                <dd>Folhas de estilo, usadas para definir aparência e layout.</dd>
+
+                <dt>JavaScript:</dt>
+                <dd>Linguagem de programação usada para adicionar interatividade às páginas web.</dd>
+            </dl>
+        </section>
+        <hr>
+        <section>
+            <h2>Tabelas</h2>
+            <table width="300px" height="300px" cellpadding="30" cellspacing="30">
+                <tr>
+                    <th colspan="2">Nome e Idade</th>
+                    <!--th>Idade</th> -->
+                </tr>
+                <tr>
+                    <td rowspan="2" align="center" valign="middle">Raíssa</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <!--td>João</td-->
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                <td>
+                    <table>
+                        <tr><td>Subitem 1</td></tr>
+                        <tr><td>Subitem 2</td></tr>
+                    </table>     
+                </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

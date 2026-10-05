@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <section>
+        <h2>Formulário</h2>
+        <form action="cadastro.php" method="post">
+            <p><label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+            </p>
+            
+            <p><label>Senha:</label>
+                <input type="password" name="senha" placeholder="Digite sua senha" required maxlength="8">
+            </p>
+            
+            <p><label>Telefone:</label>
+                <input type="text" name="telefone" placeholder="Digite seu telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required title="Formato: (99) 99999-9999">
+            </p>
+            
+            <p><label>Email:</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+            </p> 
+           
+            <p><label>CEP:</label>
+                <input type="text" name="cep" placeholder="Digite seu CEP" pattern="[0-9]{5}-[0-9]{3}" required>
+            </p>
+
+            <P><label>Sobre você:</label></P>
+            <textarea name="bio" rows="10" cols="100"></textarea>
+
+            <p><label>Gênero:</label>
+                <input type="radio" name="genero" value="M"> Masculino
+                <input type="radio" name="genero" value="F"> Feminino
+            </p>
+
+            <p><label>Interesses:</label>
+                <input type="checkbox" name="interesses" value="Tecnologia"> Tecnologia
+                <input type="checkbox" name="interesses" value="Esportes"> Esportes
+                <input type="checkbox" name="interesses" value="Artes"> Artes
+            </p>
+
+            <p><label>País:</label>
+                <select name="pais">
+                    <option value="">------------</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                </select>
+            </p>
+
+            <p><label>Foto de perfil:</label>
+                <input type="file" name="foto">
+            </p>
+
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Limpar">
+        </form>
+    </section>
+</body>
+
+</html>
