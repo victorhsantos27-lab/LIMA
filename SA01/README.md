@@ -1,0 +1,3 @@
+A gente montou uma página completa pro SENAI, começando com a logo no topo e um vídeo do YouTube do lado do texto de apresentação. Logo depois, dividimos os motivos pra estudar lá em três colunas simples pra não ficar cansativo, e criamos uma tabela bem arrumada listando os cursos, carga horária e modalidades. No final, colocamos aquele botão prático de voltar pro topo e um rodapé com formulário pra mensagem.
+
+Nas cores, mandamos ver nos tons de azul no cabeçalho, tabela e rodapé porque é a cor oficial do SENAI e passa essa vibe de tecnologia e confiança. Colocamos o texto em branco por cima pra dar aquele contraste top e ficar bem fácil de ler, além de usar a fonte Arial pra deixar o visual limpo e sem frescura em qualquer tela.
