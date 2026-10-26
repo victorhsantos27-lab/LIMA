@@ -1,0 +1,85 @@
+* {
+    /*seletor universal*/
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+.destaque {
+    /*seletor de classe*/
+    color: blue;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    /*seletor de id*/
+    color: red;
+    text-align: center;
+}
+
+p {
+    /*seletor por tag*/
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+a:link {
+    /*Link normal*/
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    /*Link visitado*/
+    color: orange;
+}
+
+a:hover {
+    /*Link com mouse sobre ele*/
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    /*Link sendo clicado*/
+    color: yellow;
+}
